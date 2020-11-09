@@ -1,0 +1,43 @@
+Git Repository:
+Tạo mới repos
+git init
+
+
+
+Git branching:
+Tạo nhánh,
+git branch [ten nhanh]
+Chuyển nhánh
+git checkout [ten nahnh] 
+Chuyển về master
+git checkout master
+Gộp (merge)
+git merge [ten nhanh]
+
+
+Git Pull: Lấy về
+Lấy từ branch hiện tại
+git pull
+lấy hết
+git pulll origin master
+
+
+Git Commit:
+Gần như là chú thích
+git commit -m "chú thích"
+
+
+Git push:
+Đẩy lên:
+sau khi add . với commit thì
+git push
+
+Git merger:
+Gộp 2 nhánh với nhau
+
+$ git merge <tên-branch>
+
+
+Git tag:
+Kiểu như là mã nguồn của dự án
+$ git tag v1.0.0

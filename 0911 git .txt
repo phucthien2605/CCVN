@@ -41,3 +41,7 @@ $ git merge <tên-branch>
 Git tag:
 Kiểu như là mã nguồn của dự án
 $ git tag v1.0.0
+
+
+
+hhshshs

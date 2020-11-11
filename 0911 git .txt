@@ -27,15 +27,37 @@ Gần như là chú thích
 git commit -m "chú thích"
 
 
+in CCVN
+git commit -m "Fix login feature, refs #1234"
+# là ticker in redmine
+
+
+
+
 Git push:
 Đẩy lên:
 sau khi add . với commit thì
 git push
 
+
+git push -f : ko dùng, overwrite
+
 Git merger:
 Gộp 2 nhánh với nhau
 
 $ git merge <tên-branch>
+
+
+
+git branch -b feature/#13877-ten-tinh-nang ( ticker trong rebmine)
+git branch -b task/#123124
+git branch -b invertigate/#123
+git branch -b bugfix/#1234
+
+
+--their
+--ours
+--manual
 
 
 Git tag:

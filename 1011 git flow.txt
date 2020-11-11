@@ -1,0 +1,27 @@
+Các nhánh chính:
+Master:  không trực tiếp commit vào master, nhánh chủ yếu được dùng đẻ merge.
+------
+Develop:: nhánh được dùng cho việc phát triển, từ nhánh này tách ra nhiều nhành(branch)
+mỗi thay đổi ta tách ra branch feature tương ứng,
+------
+Hotfix: dùng để sửa những bug nghiêm trọng khi release. 
+----
+Feature: dùng để phát triển các feature mới. Khi chức năng phát triển xong thì merge vào develop
+bắt đầu một tính năng
+git flow feature start [tên tính năng]
+kết thúc một tính năng
+git flow finish [tên tính năng]
+công bố tính năng (tạo merge request)
+git flow feature publish MYFEATURE
+lấy về tính năng
+git flow feature pull [tên máy chủ] [tên tính năng]
+-----
+Release: Là nhánh dể release sản phẩm.
+tạo release
+git flow release start RELEASE [version]
+công bố release
+git flow release publish RELEASE hoặc  git flow release track RELEASE
+kết thúc release
+git flow release track RELEASE
+------
+chuyển sang nhánh khác: $ git checkout -b [name_branch] develop

@@ -1,5 +1,5 @@
 Các nhánh chính:
-Master:  không trực tiếp commit vào master, nhánh chủ yếu được dùng đẻ merge.
+Master:  không trực tiếp commit vào master, nhánh chủ yếu được dùng để merge.
 ------
 Develop:: nhánh được dùng cho việc phát triển, từ nhánh này tách ra nhiều nhành(branch)
 mỗi thay đổi ta tách ra branch feature tương ứng,
